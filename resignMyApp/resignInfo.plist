@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>mobileprovision</key>
+	<dict>
+		<key>desc</key>
+		<string>this is the path of mobileprovision for each app, kit, appex, etc</string>
+		<key>app</key>
+		<string>/Users/ssa-user/Downloads/profiles/saicmotortocapptest.mobileprovision</string>
+		<key>watchApp</key>
+		<string>/Users/ssa-user/Downloads/profiles/saicmotortocapptest_watchkitapp.mobileprovision</string>
+		<key>watchAppAppex</key>
+		<string>/Users/ssa-user/Downloads/profiles/saicmotortocapptest_watchkitextension.mobileprovision</string>
+	</dict>
+	<key>bundleId</key>
+	<dict>
+		<key>desc</key>
+		<string>this is the new bundleId for each app, kit, appex, etc</string>
+		<key>app</key>
+		<string>com.saicmotor.tocapptest</string>
+		<key>watchApp</key>
+		<string>com.saicmotor.tocapptest.watchkitapp</string>
+		<key>watchAppAppex</key>
+		<string>com.saicmotor.tocapptest.watchkitapp.watchkitextension</string>
+	</dict>
+</dict>
+</plist>

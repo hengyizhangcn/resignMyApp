@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		33FA614029E1183100385845 /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FA613F29E1183100385845 /* main.swift */; };
+		33FA614829E1187200385845 /* ResignHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FA614629E1187100385845 /* ResignHelper.swift */; };
+		33FA614929E1187200385845 /* ResignTool.swift in Sources */ = {isa = PBXBuildFile; fileRef = 33FA614729E1187100385845 /* ResignTool.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -25,6 +27,9 @@
 /* Begin PBXFileReference section */
 		33FA613C29E1183100385845 /* resignMyApp */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = resignMyApp; sourceTree = BUILT_PRODUCTS_DIR; };
 		33FA613F29E1183100385845 /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		33FA614629E1187100385845 /* ResignHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResignHelper.swift; sourceTree = "<group>"; };
+		33FA614729E1187100385845 /* ResignTool.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ResignTool.swift; sourceTree = "<group>"; };
+		33FA614A29E1750C00385845 /* resignInfo.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = resignInfo.plist; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +63,9 @@
 			isa = PBXGroup;
 			children = (
 				33FA613F29E1183100385845 /* main.swift */,
+				33FA614629E1187100385845 /* ResignHelper.swift */,
+				33FA614729E1187100385845 /* ResignTool.swift */,
+				33FA614A29E1750C00385845 /* resignInfo.plist */,
 			);
 			path = resignMyApp;
 			sourceTree = "<group>";
@@ -120,7 +128,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				33FA614929E1187200385845 /* ResignTool.swift in Sources */,
 				33FA614029E1183100385845 /* main.swift in Sources */,
+				33FA614829E1187200385845 /* ResignHelper.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
